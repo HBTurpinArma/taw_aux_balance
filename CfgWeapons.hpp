@@ -36,7 +36,7 @@ class CfgWeapons {
 };
 
 //Weapon Changelog
-	//Increase Titan Compact (launch_Titan_short_base) from 8.8 lbs to 10 lbs (+10%)
-	//Decrase Metis (launch_Vorona_base_F) from 22.48 lbs to 13.24 lbs (-40%)
-	//Decrease NLAW (launch_NLAW_F) from 27.50 lbs to 20 lbs (-28%)
+	//Increase Titan Compact (launch_Titan_short_base) mass from 8.8 lbs to 10 lbs (+10%)
+	//Decrase Metis (launch_Vorona_base_F) mass from 22.48 lbs to 13.24 lbs (-40%)
+	//Decrease NLAW (launch_NLAW_F) mass from 27.50 lbs to 20 lbs (-28%)
 
