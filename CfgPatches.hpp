@@ -8,6 +8,7 @@ class cfgPatches
 			"A3_Data_F",
 			"A3_Functions_F",
 			"A3_Air_F",
+			"A3_Characters_F",
 			"A3_Weapons_F",
 			"A3_Weapons_F_Tank",
 			"A3_Weapons_F_Sams",
