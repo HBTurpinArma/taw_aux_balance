@@ -1,18 +1,20 @@
 class CfgVehicles {
-	//Base classes for inheritence
 
+	//////////////////
+	//New Mk2 Drones//
+	//////////////////
+	class Helicopter_Base_F;
 	class UAV;
 
+	//YABHON Mk2
 	class UAV_02_base_F: UAV {
 		class Turrets;
 	};
-
 	class B_UAV_02_dynamicLoadout_F: UAV_02_base_F {
 		class Turrets: Turrets {
 			class MainTurret;
 		};
 	};
-
 	class B_UAV_02_dynamicLoadout_F_mk2: B_UAV_02_dynamicLoadout_F {
 		displayName = "YABHON-R3 Mk2";
 		weapons[] = { "RHS_Laserdesignator_MELB"};
@@ -84,17 +86,15 @@ class CfgVehicles {
 			
 		};
 	};
-
+	//UCAV Sentinel Mk2
 	class UAV_05_Base_F: UAV {
 		class Turrets;
 	};
-
 	class B_UAV_05_F : UAV_05_Base_F {
 		class Turrets: Turrets {
 			class MainTurret;
 		};
 	};
-
 	class B_UAV_05_F_mk2: B_UAV_05_F {
 		displayName = "UCAV Sentinel Mk2";
 		weapons[] = { "RHS_Laserdesignator_MELB"};
@@ -162,19 +162,15 @@ class CfgVehicles {
 			
 		};
 	};
-
-	class Helicopter_Base_F;
-
+	//MQ-12 Falcon Mk2
 	class UAV_03_base_F: Helicopter_Base_F {
 		class Turrets;
 	};
-
 	class B_T_UAV_03_dynamicLoadout_F : UAV_03_base_F {
 		class Turrets: Turrets {
 			class MainTurret;
 		};
 	};
-
 	class B_T_UAV_03_dynamicLoadout_F_mk2: B_T_UAV_03_dynamicLoadout_F {
 		displayName = "MQ-12 Falcon Mk2";
 		weapons[] = { "RHS_Laserdesignator_MELB"};
