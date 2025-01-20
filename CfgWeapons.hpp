@@ -26,11 +26,11 @@ class CfgWeapons {
 		};
 	};	
 
-	//Decrease NLAW (launch_NLAW_F) mass from 27.50 lbs to 20 lbs (-28%)
+	//Decrease NLAW (launch_NLAW_F) mass from 27.50 lbs to 18 lbs (-35%)
 	class launch_NLAW_F: Launcher_Base_F {
-		mass = 200;
+		mass = 180;
 		class WeaponSlotsInfo: WeaponSlotsInfo {
-			mass = 200; //originally 275
+			mass = 180; //originally 275
 		};
 	};
 
@@ -83,7 +83,7 @@ class CfgWeapons {
 //Weapon Changelog
 	//Increase Titan Compact (launch_Titan_short_base) mass from 8.8 lbs to 10 lbs (+10%)
 	//Decrease Metis (launch_Vorona_base_F) mass from 22.48 lbs to 13.24 lbs (-40%)
-	//Decrease NLAW (launch_NLAW_F) mass from 27.50 lbs to 20 lbs (-28%)
+	//Decrease NLAW (launch_NLAW_F) mass from 27.50 lbs to 18 lbs (-35%)
 
 //Vest Changelog
 	//Increase the Rebreathers (V_RebreatherB) inventory size from 0lbs to 8lbs.
