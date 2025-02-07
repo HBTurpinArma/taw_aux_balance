@@ -26,6 +26,82 @@ class CfgMagazines {
 		mass = 91; //originally 136.4
 	};
 
+
+	///////////////////////////////
+	//M134 Minigun for Littlebird//
+	///////////////////////////////
+	class VehicleMagazine;
+	class rhs_mag_1100Rnd_762x51_M240: VehicleMagazine
+	{
+		scope = 2;
+		ammo = "rhs_ammo_762x51_M80A1EPR_Ball";
+		displayname = "7.62x51mm EPR";
+		displaynameshort = "M80A1 EPR";
+		namesound = "mgun";
+		initspeed = 930;
+		maxleadspeed = 100;
+		count = 1100;
+		tracersevery = 5;
+	};
+	class rhs_mag_762x51_m80a1_4000: rhs_mag_1100Rnd_762x51_M240
+	{
+		count = 4000;
+		weight = 84;
+		tracersevery = 2; // Changes the tracer rate
+	};
+	class rhs_mag_gau19_air_base: VehicleMagazine
+	{
+		scope				= 0;
+		ammo				= rhs_ammo_127x99_SLAP_Tracer_Red;
+		count				= 1300;
+		displayname			= "GAU-19/A";
+		displayNameShort	= "12.7x99mm";
+		descriptionShort	= "×1300 12.7×99mm M962 (SLAP-T)";
+		initspeed			= 1210;
+		maxleadspeed		= 200;
+		pylonWeapon			= RHS_weap_gau19;
+		muzzlePos			= "muzzlePos";
+		muzzleEnd			= "muzzleEnd";
+		weight				= 200;
+		mass				= 200;
+		tracersEvery		= 1;
+	};
+	class rhsusf_mag_gau19_melb_right: rhs_mag_gau19_air_base
+	{
+		scope			= 2;
+		hardpoints[]	= {"RHS_HP_MELB_R","RHS_HP_MELB_M134"}; // Allows GAU-19 on inner hardpoints
+		model			= \rhsusf\addons\rhsusf_airweapons\MELB\rhsusf_g_GAU19_R;
+	};
+	class rhsusf_mag_gau19_melb_left: rhs_mag_gau19_air_base
+	{
+		scope			= 2;
+		hardpoints[]	= {"RHS_HP_MELB_L","RHS_HP_MELB_M134"}; // Allows GAU-19 on inner hardpoints
+		model			= \rhsusf\addons\rhsusf_airweapons\MELB\rhsusf_g_GAU19_L;
+	};
+	class rhs_mag_m134_pylon_base: VehicleMagazine
+	{
+		scope				= 0;
+		ammo				= rhs_ammo_762x51_M61_AP;
+		displayname			= "M134";
+		displayNameShort	= "7.62x51 mm";
+		initspeed			= 910;
+		pylonWeapon			= RHS_weap_m134_pylon;
+		muzzlePos			= "muzzlePos";
+		muzzleEnd			= "muzzleEnd";
+		weight				= 180;
+		mass				= 180;
+		tracersEvery		= 3;
+		lastRoundsTracer	= 4;
+
+		model				= \rhsusf\addons\rhsusf_airweapons\MELB\rhsusf_g_m134;
+	};
+	class rhs_mag_m134_pylon_3000: rhs_mag_m134_pylon_base
+	{
+		descriptionShort	= "×3000 7.62×51mm M61/M62 (AP/T)";
+		scope				= 2;
+		hardpoints[]		= {"RHS_HP_MELB_M134","RHS_HP_MELB_R","RHS_HP_MELB_L"}; //Adds the m134 ability to be mounted on all four hardpoints
+		count				= 3000;
+	};
 };
 
 //Magazine Changelog
