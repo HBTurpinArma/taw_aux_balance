@@ -13,6 +13,11 @@
 - Decrease Javelin Ammo (rhs_fgm148_magazine_AT) mass from 28.69 lbs to 14 lbs (-50%)
 - Decrease Mk153 SMAW Ammo (rhs_mag_smaw_HEDP) mass from 12.98 lbs to 8.70 lbs (-33%)
 - Decrease Mk153 SMAW Ammo (rhs_mag_smaw_HEAA) mass from 13.64 lbs to 9.10 lbs (-33%)
+- Increase GX AMR Mk1 Ammo (GX_AMR_MK1_127_15Rnd_Mag) mass from 1.6 lbs to 3.8 lbs (+137.5%)
+- Increase GX AMR Mk1 Ammo (GX_AMR_MK1_127_15Rnd_APDS_Mag) mass from 1.6 lbs to 3.8 lbs (+137.5%)
+- Increase GX AMR Mk2 Ammo (GX_AMR_MK2_338_25Rnd_Mag) mass from 1.4 lbs to 3 lbs (+114.3%)
+- Increase GX AMR Mk2 Ammo (GX_AMR_MK2_338_25Rnd_API_Mag) mass from 1.4 lbs to 3 lbs (+114.3%)
 
 **Vehicles**
 - Adds Mk2 variants of YABHON-R3, UCAV Sentinel and MQ-12 Falcon which have better camera models from RHSUSAF.
+- Adjusts RHS MELB Pylons to be a bit more realistic in firerate/firepower. (Thanks Wer)
