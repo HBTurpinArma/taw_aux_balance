@@ -1,3 +1,4 @@
+# TAW Aux Balance
 **Vests**
 - Increase the Rebreathers (V_RebreatherB) inventory size from 0lbs to 8lbs.
 - Increase the Rebreathers (V_RebreatherB) armour slightly to that you can survive small arms.
