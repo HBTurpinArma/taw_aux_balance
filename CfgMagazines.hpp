@@ -4,24 +4,24 @@ class CfgMagazines {
 	////////////////////
 	//GX AMR Magazines//
 	////////////////////
-	//Increase GX AMR Mk1 Ammo (GX_AMR_MK1_127_15Rnd_Mag) mass from 1.6 lbs to 3.8 lbs (+137.5%)
-	class GX_AMR_MK1_127_15Rnd_Mag: CA_Magazine {
-		mass = 38; //originally 16
-	};
-	//Increase GX AMR Mk1 Ammo (GX_AMR_MK1_127_15Rnd_APDS_Mag) mass from 1.6 lbs to 3.8 lbs (+137.5%)
-	class GX_AMR_MK1_127_15Rnd_APDS_Mag: CA_Magazine {
-		mass = 38; //originally 16
-	};
+	// //Increase GX AMR Mk1 Ammo (GX_AMR_MK1_127_15Rnd_Mag) mass from 1.6 lbs to 3.8 lbs (+137.5%)
+	// class GX_AMR_MK1_127_15Rnd_Mag: CA_Magazine {
+	// 	mass = 38; //originally 16
+	// };
+	// //Increase GX AMR Mk1 Ammo (GX_AMR_MK1_127_15Rnd_APDS_Mag) mass from 1.6 lbs to 3.8 lbs (+137.5%)
+	// class GX_AMR_MK1_127_15Rnd_APDS_Mag: CA_Magazine {
+	// 	mass = 38; //originally 16
+	// };
 	
-	//Increase GX AMR Mk2 Ammo (GX_AMR_MK2_338_25Rnd_Mag) mass from 1.4 lbs to 3 lbs (+114.3%)
-	class GX_AMR_MK2_338_25Rnd_Mag: CA_Magazine {
-		mass = 30; //originally 14
-	};
+	// //Increase GX AMR Mk2 Ammo (GX_AMR_MK2_338_25Rnd_Mag) mass from 1.4 lbs to 3 lbs (+114.3%)
+	// class GX_AMR_MK2_338_25Rnd_Mag: CA_Magazine {
+	// 	mass = 30; //originally 14
+	// };
 
-	//Increase GX AMR Mk2 Ammo (GX_AMR_MK2_338_25Rnd_API_Mag) mass from 1.4 lbs to 3 lbs (+114.3%)
-	class GX_AMR_MK2_338_25Rnd_API_Mag: CA_Magazine {
-		mass = 30; //originally 14
-	};
+	// //Increase GX AMR Mk2 Ammo (GX_AMR_MK2_338_25Rnd_API_Mag) mass from 1.4 lbs to 3 lbs (+114.3%)
+	// class GX_AMR_MK2_338_25Rnd_API_Mag: CA_Magazine {
+	// 	mass = 30; //originally 14
+	// };
 	
 
 	/////////////////////////////////
