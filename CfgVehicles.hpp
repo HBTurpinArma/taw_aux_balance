@@ -17,8 +17,8 @@ class CfgVehicles {
 	};
 	class B_UAV_02_dynamicLoadout_F_mk2: B_UAV_02_dynamicLoadout_F {
 		displayName = "YABHON-R3 Mk2";
-		weapons[] = { "RHS_Laserdesignator_MELB"};
-		magazines[] = { "Laserbatteries" };
+		weapons[] = {"CMFlareLauncher"};
+		magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
@@ -32,7 +32,8 @@ class CfgVehicles {
 			class MainTurret: MainTurret {
 				gunnerOpticsModel = "rhsusf\addons\rhsusf_melb\data\optics\melb_flir_wf.p3d";
 				turretInfoType = "Rsc_MELB_Turret_UnitInfo";
-
+				// weapons[] = { "RHS_Laserdesignator_MELB"};
+				// magazines[] = { "Laserbatteries" };
 				class OpticsIn {
 					class Wide {
 						opticsDisplayName = "W";
@@ -100,8 +101,8 @@ class CfgVehicles {
 	};
 	class B_UAV_05_F_mk2: B_UAV_05_F {
 		displayName = "UCAV Sentinel Mk2";
-		weapons[] = { "RHS_Laserdesignator_MELB"};
-		magazines[] = { "Laserbatteries" };
+		weapons[] = {"CMFlareLauncher"};
+		magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
@@ -112,6 +113,8 @@ class CfgVehicles {
 		class Turrets: Turrets {
 			class MainTurret: MainTurret {
 				gunnerOpticsModel = "rhsusf\addons\rhsusf_melb\data\optics\melb_flir_wf.p3d";
+				// weapons[] = { "RHS_Laserdesignator_MELB"};
+				// magazines[] = { "Laserbatteries" };
 				class OpticsIn {
 					class Wide {
 						opticsDisplayName = "W";
@@ -179,8 +182,8 @@ class CfgVehicles {
 	};
 	class B_T_UAV_03_dynamicLoadout_F_mk2: B_T_UAV_03_dynamicLoadout_F {
 		displayName = "MQ-12 Falcon Mk2";
-		weapons[] = { "RHS_Laserdesignator_MELB"};
-		magazines[] = { "Laserbatteries" };
+		weapons[] = {"CMFlareLauncher"};
+		magazines[] = {"120Rnd_CMFlare_Chaff_Magazine"};
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
@@ -191,6 +194,8 @@ class CfgVehicles {
 		class Turrets: Turrets {
 			class MainTurret: MainTurret {
 				gunnerOpticsModel = "rhsusf\addons\rhsusf_melb\data\optics\melb_flir_wf.p3d";
+				// weapons[] = { "RHS_Laserdesignator_MELB"};
+				// magazines[] = { "Laserbatteries" };
 				class OpticsIn {
 					class Wide {
 						opticsDisplayName = "W";
