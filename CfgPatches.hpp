@@ -20,7 +20,7 @@ class cfgPatches
 		};
 		requiredVersion=1.0;
 		weapons[]={};
-		units[]={};
+		units[]={"B_UAV_02_dynamicLoadout_F_mk2", "B_UAV_05_F_mk2", "B_T_UAV_03_dynamicLoadout_F_mk2"};
 		magazines[]={};
 		ammo[]={};
 	};

@@ -22,7 +22,10 @@ class CfgVehicles {
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
-
+		faction = "BLU_F";
+		crew = "B_UAV_AI";
+		typicalCargo[] = {"B_UAV_AI"};
+		
 		//driverOpticsModel = "rhsusf\addons\rhsusf_melb\data\optics\melb_flir_w2.p3d";
 		
 		class Turrets: Turrets {
@@ -102,7 +105,10 @@ class CfgVehicles {
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
-
+		faction = "BLU_F";
+		crew = "B_UAV_AI";
+		typicalCargo[] = {"B_UAV_AI"};
+		
 		class Turrets: Turrets {
 			class MainTurret: MainTurret {
 				gunnerOpticsModel = "rhsusf\addons\rhsusf_melb\data\optics\melb_flir_wf.p3d";
@@ -178,7 +184,10 @@ class CfgVehicles {
 		scope = 2;
 		scopeCurator = 2;
 		side = 1;
-
+		faction = "BLU_F";
+		crew = "B_UAV_AI";
+		typicalCargo[] = {"B_UAV_AI"};
+		
 		class Turrets: Turrets {
 			class MainTurret: MainTurret {
 				gunnerOpticsModel = "rhsusf\addons\rhsusf_melb\data\optics\melb_flir_wf.p3d";
