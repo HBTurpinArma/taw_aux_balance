@@ -1,5 +1,10 @@
 class CfgVehicles {
 
+	/////////////////////
+	//Mod Compatibility//
+	/////////////////////
+	#include "Compats\PLA_AVP.hpp"
+
 	//////////////////
 	//New Mk2 Drones//
 	//////////////////
