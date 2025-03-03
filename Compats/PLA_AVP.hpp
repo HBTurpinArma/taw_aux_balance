@@ -10,7 +10,6 @@
 			class HitFuel;
 			class HitLTrack;
 			class HitRTrack;
-			class HitArmor;
 		};
 	};
 	class Car;
@@ -21,7 +20,6 @@
 		class HitPoints {
 			class HitFuel;
 			class HitEngine;
-			class HitBody;
 		};
 	};
 
@@ -78,7 +76,7 @@
 				radius = 0.2;
 				passThrough = 0;
 			};
-			class HitArmor: HitArmor{
+			class HitArmor {
 				armor = 1;
 				explosionShielding = 0.6;
 				minimalHit = 0.1;
@@ -88,32 +86,9 @@
 		};
 	};
 	
-	class HQ6A: Truck_F {
+	class HQ6A_base: Truck_F {
 		armor = 200;
-		armorStructural = 3;
-		class HitPoints: HitPoints {
-			class HitBody: HitBody {
-				armor = 0.8;
-				explosionShielding = 0.7;
-				minimalHit = 0.0;
-				radius = 0.33;
-				passThrough = 1.0;
-			};
-			class HitEngine: HitEngine {
-				armor = 0.5;
-				explosionShielding = 0.5;
-				minimalHit = 0.0;
-				radius = 0.45;
-				passThrough = 1.0;
-			};
-			class HitFuel: HitFuel {
-				armor = 0.5;
-				explosionShielding = 1.5;
-				minimalHit = 0.0;
-				radius = 0.15;
-				passThrough = 1.0;
-			};
-		};
+		armorStructural = 1;
 	};
 
 
@@ -130,7 +105,7 @@
 		damageResistance = 0.00547;
 		epeImpulseDamageCoef = 18;
 		class HitPoints: HitPoints {
-			class HitArmor: HitArmor {
+			class HitArmor {
 				armor = 1.1;
 				explosionShielding = 0.6;
 				minimalHit = 0.3;
@@ -186,7 +161,7 @@
 		explosionShielding = 1
 
 		class HitPoints: HitPoints {
-			class HitArmor: HitArmor {
+			class HitArmor {
 				armor = 0.8;
 				explosionShielding = 0.6;
 				minimalHit = 0.3;
@@ -238,7 +213,7 @@
 		damageResistance = 0.00547;
 		epeImpulseDamageCoef = 18;
 		class HitPoints: HitPoints {
-			class HitArmor: HitArmor {
+			class HitArmor {
 				armor = 1.0;
 				explosionShielding = 0.7;
 				minimalHit = 0.3;
@@ -296,7 +271,7 @@
 		damageResistance = 0.00547;
 		epeImpulseDamageCoef = 18;
 		class HitPoints: HitPoints {
-			class HitArmor: HitArmor {
+			class HitArmor {
 				armor = 1.1;
 				explosionShielding = 0.7;
 				minimalHit = 0.3;
@@ -354,7 +329,7 @@
 		damageResistance = 0.00547;
 		epeImpulseDamageCoef = 18;
 		class HitPoints: HitPoints {
-			class HitArmor: HitArmor {
+			class HitArmor {
 				armor = 1.1;
 				explosionShielding = 0.6;
 				minimalHit = 0.3;
@@ -412,7 +387,7 @@
 		damageResistance = 0.00547;
 		epeImpulseDamageCoef = 18;
 		class HitPoints: HitPoints {
-			class HitArmor: HitArmor {
+			class HitArmor {
 				armor = 1.1;
 				explosionShielding = 0.6;
 				minimalHit = 0.3;
@@ -470,7 +445,7 @@
 		damageResistance = 0.00547;
 		epeImpulseDamageCoef = 18;
 		class HitPoints: HitPoints {
-			class HitArmor: HitArmor {
+			class HitArmor {
 				armor = 1.1;
 				explosionShielding = 0.6;
 				minimalHit = 0.3;
@@ -528,7 +503,7 @@
 		damageResistance = 0.00547;
 		epeImpulseDamageCoef = 18;
 		class HitPoints: HitPoints {
-			class HitArmor: HitArmor {
+			class HitArmor {
 				armor = 1.1;
 				explosionShielding = 0.6;
 				minimalHit = 0.3;
@@ -590,7 +565,7 @@
 		damageResistance = 0.00547;
 		epeImpulseDamageCoef = 18;
 		class HitPoints: HitPoints {
-			class HitArmor: HitArmor {
+			class HitArmor {
 				armor = 0.7;
 				explosionShielding = 0.6;
 				minimalHit = 0.3;
@@ -634,7 +609,7 @@
 		damageResistance = 0.00547;
 		epeImpulseDamageCoef = 18;
 		class HitPoints: HitPoints {
-			class HitArmor: HitArmor {
+			class HitArmor {
 				armor = 0.7;
 				explosionShielding = 0.6;
 				minimalHit = 0.3;
@@ -678,7 +653,7 @@
 		damageResistance = 0.00547;
 		epeImpulseDamageCoef = 18;
 		class HitPoints: HitPoints {
-			class HitArmor: HitArmor {
+			class HitArmor {
 				armor = 1.1;
 				explosionShielding = 0.6;
 				minimalHit = 0.3;
@@ -736,7 +711,7 @@
 		damageResistance = 0.00547;
 		epeImpulseDamageCoef = 18;
 		class HitPoints: HitPoints {
-			class HitArmor: HitArmor {
+			class HitArmor {
 				armor = 1.1;
 				explosionShielding = 0.6;
 				minimalHit = 0.3;
