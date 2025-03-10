@@ -1,4 +1,16 @@
+class SensorTemplatePassiveRadar;
+class SensorTemplateAntiRadiation;
+class SensorTemplateActiveRadar;
+class SensorTemplateIR;
+class SensorTemplateVisual;
+class SensorTemplateMan;
+class SensorTemplateLaser;
+class SensorTemplateNV;
+class SensorTemplateDataLink;
+class Mode_SemiAuto;
+class Mode_Burst;
 class Mode_FullAuto;
+
 
 class CfgWeapons {
 	////////////////////////////
