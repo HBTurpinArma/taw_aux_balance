@@ -34,7 +34,7 @@
 
 	//AA
 	class PGZ09_AA_base: Tank_F {
-		armor = 200;
+		armor = 160;
 		armorStructural = 1;
 		explosionShielding = 1;
 		replaceDamagedLimit = 0.9;
@@ -42,17 +42,17 @@
 		epeImpulseDamageCoef = 18;
 		class HitPoints: HitPoints {
 			class HitHull: HitHull {
-				armor = 0.8;
+				armor = 0.55;
 				explosionShielding = 0.2;
 				minimalHit = 0.2;
-				radius = 0.25;
-				passThrough = 0;
+				radius = 0.65;
+				passThrough = 0.4;
 			};
 			class HitEngine: HitEngine {
-				armor = 0.8;
+				armor = 0.5;
 				explosionShielding = 0.2;
 				minimalHit = 0.2;
-				radius = 0.25;
+				radius = 0.65;
 				passThrough = 0.2;
 			};
 			class HitFuel: HitFuel {
@@ -80,8 +80,8 @@
 				armor = 1;
 				explosionShielding = 0.6;
 				minimalHit = 0.1;
-				passThrough = 0;
-				radius = 0.1;
+				passThrough = 0.5;
+				radius = 0.2;
 			};
 		};
 	};
