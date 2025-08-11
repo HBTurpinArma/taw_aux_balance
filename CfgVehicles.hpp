@@ -269,9 +269,9 @@ class CfgVehicles {
 	};
 	class VTOL_02_base_F: VTOL_Base_F {
 		class pilotCamera: pilotCamera {
-			minTurn = -160;
+			minTurn = -170;
 			minElev = -5;
-			maxTurn = 160;
+			maxTurn = 170;
 			maxElev = 110;
 		};
 	};
