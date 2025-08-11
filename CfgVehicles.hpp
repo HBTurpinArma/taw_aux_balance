@@ -575,4 +575,16 @@ class CfgVehicles {
 		
 
 
+	//Taru Pod Damage Balance;
+	class Slingload_base_F;
+	class Pod_Heli_Transport_04_base_F: Slingload_base_F {
+		damageResistance = 0.50;
+		armor = 600;
+		armorStructural = 400;
+	};
+
+
+
+
+
 };
