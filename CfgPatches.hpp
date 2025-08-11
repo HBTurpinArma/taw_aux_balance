@@ -15,6 +15,7 @@ class cfgPatches
 			"A3_Weapons_F_Enoch",
 			"rhsusf_main",
 			"rhsusf_melb",
+			"rhsusf_c_melb",
 			"rhsusf_c_heavyweapons",
 			"rhsusf_c_airweapons"
 		};

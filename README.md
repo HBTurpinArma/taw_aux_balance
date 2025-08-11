@@ -15,5 +15,7 @@
 - Decrease Mk153 SMAW Ammo (rhs_mag_smaw_HEAA) mass from 13.64 lbs to 9.10 lbs (-33%)
 
 **Vehicles**
-- Adds Mk2 variants of YABHON-R3, UCAV Sentinel and MQ-12 Falcon which have better camera models from RHSUSAF.
+- Adds Mk2 variants of vanilla YABHON-R3, UCAV Sentinel and MQ-12 Falcon which have better camera models from RHSUSAF.
 - Adjusts RHS MELB Pylons to be a bit more realistic in firerate/firepower. (Thanks Wer)
+- Adds targetting pods to UH60 and RHS AH6M MELB pilot seats
+- Adjusts the Xi'ans targetting pod min/max angle and elevations
