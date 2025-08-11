@@ -277,13 +277,9 @@ class CfgVehicles {
 	};
 
 	// RHS_MELB_AH6M (RHS little bird)
-	class RHS_MELB_base: Helicopter_Base_H {
-		class MFD;
-	};
+	class RHS_MELB_base;
 	class RHS_MELB_AH6M: RHS_MELB_base {
-		class MFD: MFD {
-			class AirplaneHUD;
-		};
+		class MFD;
 	};
 	class RHS_MELB_AH6M_MK2: RHS_MELB_AH6M {
 		displayName = "AH-6M MELB Mk2";
@@ -294,7 +290,6 @@ class CfgVehicles {
 		magazines[] += {"Laserbatteries"};
 		weapons[] += {"Laserdesignator_pilotCamera"};
 		class MFD: MFD {
-			class AirplaneHUD: AirplaneHUD {};
 			class B_Plane_Fighter_01_static_HUD {
 				enableParallax = 0;
 				topLeft = "HUD_top_left";
